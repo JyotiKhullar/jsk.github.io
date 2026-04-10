@@ -1,40 +1,151 @@
 <div class="card">
   <h3>Editing for Clarity and Structure</h3>
 
-  <p><strong>Context:</strong> Product description for ProductX Studio (anonymized for demonstration)</p>
+  <p><strong>Context:</strong> Sample product description (anonymized for demonstration)</p>
 
   <p><strong>Problem:</strong></p>
   <ul>
     <li>Long, dense sentences made the content hard to read</li>
-    <li>Repetition of key ideas (no-code, customization)</li>
+    <li>Repetition of key ideas</li>
     <li>Unclear flow between concepts</li>
-    <li>Mixed focus between technical and non-technical audiences</li>
+    <li>Mixed audience focus</li>
   </ul>
 
   <p><strong>What I improved:</strong></p>
   <ul>
-    <li>Broke complex sentences into shorter, clearer statements</li>
-    <li>Removed redundancy and tightened phrasing</li>
-    <li>Reorganized content for logical flow (what → how → why → technical detail)</li>
-    <li>Clarified technical concepts like base packages and schemas</li>
-    <li>Balanced readability for both technical and non-technical users</li>
+    <li>Broke long sentences into shorter, clearer statements</li>
+    <li>Removed redundancy</li>
+    <li>Improved logical flow</li>
+    <li>Clarified technical concepts</li>
   </ul>
 
-  <p><strong>Before:</strong></p>
-  <pre>
-ProductX Studio, the core of the ProductX product suite, is a no-code platform to automate workflows and build applications while enjoying the maximum degree of freedom. Built on a composable no-code architecture, the platform empowers non-technical individuals and no-code creators to effortlessly design and customize their distinctive business solutions using pre-built, composable components. The platform is required for any ProductX instance. The ProductX platform functionality is implemented in base packages. You can customize out-of-the-box functionality. The customizations extend functionality by replacing the base schemas and do not modify base packages and their schemas.
-  </pre>
+  <table>
+    <tr>
+      <th>Before</th>
+      <th>After</th>
+    </tr>
+    <tr>
+      <td>
+<pre>
+ProductX Studio, the core of the product suite, is a no-code platform to automate workflows and build applications while enjoying the maximum degree of freedom. Built on a composable no-code architecture, the platform empowers non-technical individuals and no-code creators to effortlessly design and customize their distinctive business solutions using pre-built, composable components. The platform is required for any instance. The platform functionality is implemented in base packages. You can customize out-of-the-box functionality. The customizations extend functionality by replacing the base schemas and do not modify base packages and their schemas.
+</pre>
+      </td>
+      <td>
+<pre>
+ProductX Studio is a no-code platform that helps you automate workflows and build applications.
 
-  <p><strong>After:</strong></p>
-  <pre>
-ProductX Studio is a highly customizable no-code platform that helps you automate workflows and build applications. Its no-code architecture empowers non-technical individuals to design and customize their business solutions using pre-built components. The studio sits at the core of the ProductX product suite, which also means it is required for every ProductX instance. The platform lets you customize out-of-the-box functionality by extending its base packages. That is, you can customize the platform features by replacing the base schemas, without modifying the base packages or their schemas.
-  </pre>
+Its composable architecture enables non-technical users to design and customize business solutions using pre-built components.
+
+As the core of the product suite, ProductX Studio is required for every instance.
+
+The platform allows you to extend out-of-the-box functionality through base packages. You can customize features by replacing base schemas—without modifying the base packages themselves.
+</pre>
+      </td>
+    </tr>
+  </table>
 
   <p><strong>Outcome:</strong></p>
   <ul>
-    <li>Improved readability and scannability</li>
-    <li>Clear separation of concepts for better understanding</li>
-    <li>Better alignment with both user and technical audiences</li>
-    <li>Content is easier to reuse, structure, and adapt for AI-based retrieval</li>
+    <li>Improved readability and clarity</li>
+    <li>Better logical flow</li>
+    <li>Clearer separation of concepts</li>
+    <li>More suitable for structured and AI-ready content</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Restructuring a Product User Guide for Better Navigation</h3>
+
+  <p><strong>Context:</strong> Information architecture improvement for a charting product user guide.</p>
+
+  <p><strong>Problem:</strong></p>
+  <ul>
+    <li>The original structure grouped content by individual chart components, which fragmented the learning flow.</li>
+    <li>Related concepts such as chart types, elements, and getting started topics were spread across separate sections.</li>
+    <li>The hierarchy was inconsistent and difficult to scale as more chart types and feature areas were added.</li>
+    <li>Users had to jump between multiple top-level sections to understand one product area fully.</li>
+  </ul>
+
+  <p><strong>What I changed:</strong></p>
+  <ul>
+    <li>Shifted the structure from component-based grouping to a unified product guide model.</li>
+    <li>Grouped topics by user need and documentation intent, such as overview, setup, data binding, chart types, and interaction.</li>
+    <li>Created clearer hierarchy under chart categories to support both discoverability and growth.</li>
+    <li>Brought related content together so users could move through the guide more naturally.</li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Before (Original Structure)</th>
+      <th>After (Improved Structure)</th>
+    </tr>
+    <tr>
+      <td>
+<pre>FlexChart
+  - Key features
+  - Quick Start
+  - Understanding FlexChart
+    - FlexChart Fundamentals
+    - FlexChart Types
+    - Working with FlexChart
+    - FlexChart Elements
+    - Export
+
+FlexPie
+  - Quick Start
+  - Animation
+  - Pie Chart Types
+  - Pie Chart Elements
+
+FlexRadar
+  - Key features
+  - Quick Start
+  - Chart Types
+  - Sunburst Chart Elements
+
+Treemap
+  - Key features
+  - Quick Start
+  - Treemap Chart Elements
+  - Treemap Databinding</pre>
+      </td>
+      <td>
+<pre>FlexChart Overview
+- Key Features
+- Quick Start
+- Design-time support
+- Data binding
+
+Chart Types
+  - Line Charts
+  - Bar Charts
+  - Area Charts
+  - Pie Chart
+  - Statistical Charts
+    - Box and Whisker
+    - Histogram
+    - Error bar
+  - Specialized Charts
+    - Gantt Chart
+    - Funnel Chart
+    - Radar Chart
+    - Treemap
+
+- Elements
+- End-user Interaction
+- Analysis
+- Appearance
+- Export
+- Tutorials</pre>
+      </td>
+    </tr>
+  </table>
+
+  <p><strong>Why the new structure works better:</strong></p>
+  <ul>
+    <li>It reduces fragmentation by bringing related content into one unified guide.</li>
+    <li>It supports a more natural user journey: understand the product, get started, explore chart types, then go deeper.</li>
+    <li>It makes the guide easier to expand as new chart types or capabilities are introduced.</li>
+    <li>It improves findability for both users and AI-based retrieval systems by making topic boundaries and relationships clearer.</li>
   </ul>
 </div>
